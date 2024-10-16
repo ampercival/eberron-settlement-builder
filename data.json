@@ -1,0 +1,575 @@
+{
+	"tables": [
+		{
+			"table": "ruler",
+			"title": "Ruler",
+			"description": "Who holds power in the town, and how does their leadership shape its atmosphere and politics? Eberron's rulers range from corporations to ancient beings, each influenced by magic and shifting alliances.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Feudal lord",
+					"description": "Does this noble owe allegiance to a dragonmarked house or a distant crown? Are they a figurehead for another power, such as a mysterious patron or a shadowy organization like the Aurum? How do they enforce control in an age of airships and magewrights—through arcane means, or do they cling to older traditions?"
+				},
+				{
+					"row": 2,
+					"value": "Town council",
+					"description": "Is the council made up of guild leaders, dragonmarked representatives, or wealthy merchants? How do they balance their own interests with the needs of the town? Are they navigating house rivalries or dealing with powerful forces like the Twelve or Morgrave University? Do outsiders (like adventurers) find it easy to get involved in local politics?"
+				},
+				{
+					"row": 3,
+					"value": "Democratically elected leader",
+					"description": "Who controls the vote? Is it dominated by a specific dragonmarked house or trade guild? Is it a progressive system like in Breland, or something more local and ad hoc? How do different groups—artificers, laborers, merchants—vie for power and influence? What promises or debts does the leader owe to those who helped them gain power?"
+				},
+				{
+					"row": 4,
+					"value": "Magocracy",
+					"description": "What type of magic defines the leadership—arcane magic from Arcanix, divine magic from a religious faction, or artificers with warforged labor? How does this magical power shape everyday life in the town? Do the people trust magic, or is there fear and resentment toward those who wield it? How do magewrights or dragonmarked heirs fit into this hierarchy?"
+				},
+				{
+					"row": 5,
+					"value": "Corporation",
+					"description": "Which dragonmarked house or independent corporation holds sway? Is this town centered around a specific industry like elemental binding (Cannith), transportation (Orien), or healing (Jorasco)? Is life here shaped by company scrip, or are people free to trade openly? How does the house maintain control, and what rivalries exist with other houses or guilds?"
+				},
+				{
+					"row": 6,
+					"value": "Theocracy",
+					"description": "What faith rules the town—followers of the Silver Flame, Blood of Vol, or a more esoteric cult like the Children of Winter or a sect tied to the Draconic Prophecy? Does the ruling clergy claim divine authority or rely on relics or manifest zones to maintain power? How devout are the townsfolk, and is the religion truly benevolent, or is it more controlling?"
+				},
+				{
+					"row": 7,
+					"value": "Military rule",
+					"description": "Why does the military control the town? Is this a fortified outpost near the Mournland, or a recently conquered settlement still under martial law? Do the soldiers serve a nation, a mercenary company like House Deneith, or perhaps a local warlord? How do civilians feel about military rule—grateful for protection, or resentful of strict discipline?"
+				},
+				{
+					"row": 8,
+					"value": "None (Commune)",
+					"description": "How does this commune maintain equality and order? Do artificers or druids create technology and magic to distribute resources, or do dragonmarked houses secretly pull the strings behind the scenes? Is this an intentional community formed after the Last War, or a more anarchic group of survivors? What challenges threaten to destabilize this fragile balance?"
+				},
+				{
+					"row": 9,
+					"value": "None (Anarchy)",
+					"description": "Why is there no formal leadership—was there a disaster, like the Mourning, or a rebellion against a tyrant? Is this town a haven for criminals, adventurers, or others who operate outside the law? How do the people organize themselves, and are they truly free, or do unofficial powers—like gangs, dragonmarked houses, or secret societies—really call the shots?"
+				},
+				{
+					"row": 10,
+					"value": "Powerful eternal being",
+					"description": "What sort of ancient or immortal entity controls the town—an ancient dragon, a slumbering daelkyr, or a warforged colossus? How do they maintain power? Do they rule openly, or do they manipulate events from behind the scenes? What is the relationship between the townsfolk and their ruler—do they worship them, fear them, or work with them out of necessity?"
+				}
+			]
+		},
+		{
+			"table": "belief",
+			"title": "Beliefs",
+			"description": "Beliefs in Eberron—wheher religious, cultural, or magical—shape the town's identity. The Last War has caused some to question traditions, while others cling to old faiths or superstitions.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Pantheon (Sovereign Host/Dark Six)",
+					"description": "Does the town worship the Sovereign Host, the most widespread faith in Khorvaire, or have they secretly turned to the Dark Six? Is the town’s faith inclusive of all aspects of life (Arawai, Boldrei, Dol Arrah), or does one god dominate, perhaps the Smith worshipping Onatar? What tensions exist between followers of different gods? Do they openly reject the Dark Six, or do some make hidden offerings to the Devourer or the Fury?"
+				},
+				{
+					"row": 2,
+					"value": "Monotheistic (Silver Flame or Blood of Vol)",
+					"description": "Is this town a bastion of the Silver Flame, united against evil, or have they been swayed by the Blood of Vol, where death is seen as a path to power? How do they view outsiders—are they missionaries, trying to convert others, or zealots who harshly judge those who don’t share their faith? What relics or manifest zones lend credence to their beliefs, and how do they enforce spiritual purity or immortality?"
+				},
+				{
+					"row": 3,
+					"value": "Animistic (Gatekeepers/Druids)",
+					"description": "Are the townsfolk aligned with druidic traditions, perhaps revering the natural world through the Gatekeepers or the Ashbound? How do they interact with the land—do they cultivate it through symbiosis, or fiercely defend it from 'unnatural' magic? What is the town’s relationship with druidic circles, and do they guard against planar incursions, especially from dangerous realms like Xoriat?"
+				},
+				{
+					"row": 4,
+					"value": "Creature Worship (Dragon/Daelkyr/Fiend)",
+					"description": "Does the town revere a powerful entity—an ancient dragon, a daelkyr warlord, or perhaps a fiend bound in ancient times? How has this worship shaped their society—are they empowered by the creature's magic, or are they under its subtle control? Did the creature save them, enslave them, or offer them knowledge? How do outsiders view this relationship, and is it seen as heretical or a necessary evil?"
+				},
+				{
+					"row": 5,
+					"value": "Machine Worship (Warforged/Artifice)",
+					"description": "Does the town revere warforged or advanced artifice, perhaps viewing it as a gift from House Cannith or even an ancient civilization? Have they built a culture around maintaining these machines, or have they found lost technologies like a colossus from the Last War or an old Cannith forge? What purpose do they believe these machines serve, and how do they think technology will guide them into the future?"
+				},
+				{
+					"row": 6,
+					"value": "Philosophy (Draconic Prophecy/Quori Dreams)",
+					"description": "Is there a philosophical underpinning to the town's beliefs? Perhaps they seek to unravel the mysteries of the Draconic Prophecy, interpreting the signs around them, or they’ve fallen under the influence of the Quori and their shared dreams. How does this philosophy influence their actions, and are factions forming within the town to debate its meaning or application? Do they ally with those who share their ideals?"
+				},
+				{
+					"row": 7,
+					"value": "Civic Destiny (Aftermath of the Last War)",
+					"description": "What does the town believe about its destiny—are they the future of their nation, the remnants of Cyre seeking to reclaim their land, or a border town striving to expand and grow? What is the town’s mythic history, and how does it guide their actions? Do they believe they’re chosen to rebuild, to expand, or to protect something precious? How far are they willing to go to fulfill this perceived destiny?"
+				},
+				{
+					"row": 8,
+					"value": "Isolationism (Hidden Communities/Riedran Influence)",
+					"description": "Why does this town avoid outside influence—are they a hidden Aereni enclave, a community of Cyran survivors afraid of the outside world, or perhaps a town under the subtle influence of the Riedran Empire? Do they actively resist outsiders, or do they operate in secret, hidden beneath the surface? How do they interact with adventurers—are they suspicious, hostile, or cautiously open to help?"
+				},
+				{
+					"row": 9,
+					"value": "Pacifism (Followers of Boldrei or Balinor)",
+					"description": "How has this belief in peace taken hold—are they devout followers of Boldrei who believe in home and community, or perhaps worshippers of Balinor, striving to live in harmony with nature? How do they handle outside threats, and is there a history of violence that they’re trying to move past? What conflicts threaten their peace, and are they willing to compromise their beliefs if their way of life is in danger?"
+				},
+				{
+					"row": 10,
+					"value": "Superstition (Prophecy/Manifest Zones)",
+					"description": "What strange beliefs shape the town’s culture—are they tied to local manifest zones or supernatural events? Do the townsfolk fear something ancient beneath the earth, or do they think the Draconic Prophecy is manifesting here? How do these beliefs affect local customs, and could they lead to hidden truths or adventures for the players? Are these superstitions dismissed by outsiders, or taken seriously as prophetic?"
+				}
+			]
+		},
+		{
+			"table": "inside_dangers",
+			"title": "Inside Dangers",
+			"description": "In Eberron, internal dangers like gangs, dark cults, and arcane mishaps shape a town’s character, with threats often tied to the Last War, corrupt officials, or magical secrets.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Rival Families (Dragonmarked Houses or Local Dynasties)",
+					"description": "Are these families members of rival dragonmarked houses—perhaps a Cannith enclave vying with a Jorasco medical guild? Or are they old noble dynasties or merchant families feuding over a lucrative resource or an old grudge from the Last War? How far does the violence spill into the streets, and are there family members secretly working to end the conflict? Do these feuds shape local politics, or do they involve clandestine alliances with larger powers?"
+				},
+				{
+					"row": 2,
+					"value": "Gangs (Street Gangs or House Agents)",
+					"description": "How organized are these gangs? Are they street-level thugs, or perhaps agents working for one of the dragonmarked houses or a criminal syndicate like the Boromar Clan? Do they fight over territory, or are they involved in smuggling dragonshards, contraband warforged parts, or even black market magical goods? How brazen are they, and could a player accidentally provoke a gang by wearing the wrong colors, house insignia, or symbol?"
+				},
+				{
+					"row": 3,
+					"value": "Corrupt Constabulary (Bought by the Houses or Local Crime Lords)",
+					"description": "Who controls the local guards or city watch? Are they being paid off by a dragonmarked house (like House Deneith or Medani) to ignore certain activities, or are they in the pocket of a local crime lord? How deeply does the corruption go, and is the town’s nominal ruler complicit? How do they handle troublemakers—are they quietly disappeared, or framed for crimes they didn’t commit? How do the players navigate a town where the law can’t be trusted?"
+				},
+				{
+					"row": 4,
+					"value": "Crime Rings (Aurum or Boromar Clan)",
+					"description": "Is the town home to a criminal syndicate like the Boromar Clan or tied to a larger organization like the Aurum? Does the crime ring smuggle goods across borders, deal in stolen artifacts, or traffic in dangerous magical experiments? How far-reaching is this conspiracy—does it extend to Sharn, or beyond? Do they control whole sections of the town, and how high does their influence reach—city hall, or perhaps even within a dragonmarked house or the Twelve?"
+				},
+				{
+					"row": 5,
+					"value": "Murderers (Assassins, Warforged Killers, or Serial Killers)",
+					"description": "Is there an assassin’s guild operating in town, or is the place haunted by a mysterious killer? Could this be a warforged seeking revenge for mistreatment during the Last War, or a changeling assassin whose motives are unclear? Are killings targeted (perhaps against a specific dragonmarked house or organization), or is there a serial killer stalking innocents? What gets the players involved, and could they end up on the killer’s hit list?"
+				},
+				{
+					"row": 6,
+					"value": "Press-Gangs (Karrnathi Soldiers or Elemental Binding)",
+					"description": "Who is behind the kidnappings? Are people being snatched up to work in a secret underground facility, or perhaps forced into an illegal elemental binding operation run by a rogue Cannith artificer? Is this the work of Karrnathi soldiers looking to build up a hidden military force, or an unscrupulous merchant press-ganging townsfolk into dangerous labor? Who do they target, and do any escape to tell the tale? What purpose are these captives being used for, and is anyone in town willing to resist or help?"
+				},
+				{
+					"row": 7,
+					"value": "Industry Bosses (Dragonmarked Exploiters or Ruthless Guildmasters)",
+					"description": "How harsh are the working conditions? Does a dragonmarked house like Cannith or Sivis run the local industry, exploiting laborers or magewrights for cheap arcane work? Are they covering up a dangerous side effect of a magical experiment or mining operation? How do they deal with protests—do they hire mercenaries, thugs, or Deneith soldiers to break strikes? Do the workers have any hope, or are they forced into compliance by threats to their family or livelihoods?"
+				},
+				{
+					"row": 8,
+					"value": "Persecution (Faiths or Dragonmarked Outcasts)",
+					"description": "Is a certain group being targeted? Perhaps followers of the Blood of Vol or changelings are being persecuted by devout citizens of the Silver Flame. Are tensions rising between different faiths, or is a dragonmarked house purging the town of its outcasts? Who is riling up the townsfolk against these groups, and what’s the true motive—power, fear, or something else? What role do the players take, and how do they uncover the truth behind the persecution? Could this be tied to a larger regional conflict?"
+				},
+				{
+					"row": 9,
+					"value": "Animal or Creature Attacks (Magebred Beasts or Magical Aberrations)",
+					"description": "Are creatures attacking the town? Perhaps it’s magebred beasts released from a secret Cannith facility, or something far worse—like a daelkyr-spawned aberration from the depths. Do goblin tribes raid the town at night, or is there a powerful lycanthrope preying on the townsfolk? What brought these creatures here—was it a failed magical experiment, or something unleashed from a manifest zone or planar rift? How do the townsfolk defend themselves, and what help do they seek?"
+				},
+				{
+					"row": 10,
+					"value": "Dark Cults (Dragon Below, Daelkyr, or Otherworldly Powers)",
+					"description": "Is there a hidden cult operating in town, perhaps worshipping a daelkyr, a fiend, or one of the dark powers of Khyber? What’s their ultimate goal—world domination, bringing about a planar catastrophe, or perhaps ascending to godhood? Are they a small secretive sect, or do they have hidden influence over local politics? What rituals or sacrifices do they perform, and how close are they to achieving their goals? Could the players accidentally stumble into one of their schemes, or are they drawn in on purpose?"
+				}
+			]
+		},
+		{
+			"table": "outside_dangers",
+			"title": "Outside Dangers",
+			"description": "The wilderness outside the town can be just as dangerous, from lingering threats of the Last War to otherworldly invaders. These external dangers challenge the town and push players into action.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Bandits (Soldiers of the Last War or Mercenaries)",
+					"description": "Are these bandits the remnants of soldiers who never found peace after the Last War, now preying on isolated towns? Or are they mercenaries for hire, working for a powerful noble or dragonmarked house? Do they stick to highway robbery, or are they specialized in high-risk theft, like lightning rail heists or hijacking airships? What drove them to this life—desperation, greed, or revenge for a forgotten slight during the war?"
+				},
+				{
+					"row": 2,
+					"value": "Standard Wildlife (Magebred Beasts or Predators)",
+					"description": "What dangerous creatures roam the wilderness nearby? Are they mundane wolves or bears, or perhaps magebred beasts engineered for war that have now gone rogue? How does the town deal with their proximity—are there regular hunts, or do people just stay behind the walls at night? Is the encroaching wildlife a result of the Last War, pushing creatures from their natural habitats into more populated areas? Could these animals be part of a larger druidic conflict, like the Ashbound?"
+				},
+				{
+					"row": 3,
+					"value": "Uncommon Wildlife (Dinosaurs or War Beasts)",
+					"description": "Has the town inadvertently settled near a nesting ground for creatures like dinosaurs or owl bears, perhaps left over from a long-forgotten conflict? Are there monstrosities still wandering the landscape from the War of the Mark or a mage’s failed experiment? What actions are taken to keep these beasts at bay—regular patrols, magical wards, or desperate mercenaries hired to protect the townsfolk? Could these creatures be tied to a manifest zone or a strange planar effect nearby?"
+				},
+				{
+					"row": 4,
+					"value": "Environmental Hazards (Manifest Zones or Arcane Ruins)",
+					"description": "What dangerous environments surround the town? Is it built near a manifest zone tied to a volatile plane like Fernia (the Sea of Fire) or Mabar (the Endless Night), creating dangerous magical effects in the landscape? Is the town perched on the edge of the Mournland, where arcane fallout threatens those who venture too far? How does this environment shape the town’s defenses, economy, and overall lifestyle—are people hardened survivors, or are they struggling to adapt to the hazards around them?"
+				},
+				{
+					"row": 5,
+					"value": "Plague (Magical or Mundane)",
+					"description": "Is there a mundane plague sweeping through the surrounding countryside, slowly creeping toward the town? How is it spreading—through animals, tainted water, or even magical contamination? Have the townspeople successfully kept it at bay, or is it only a matter of time before the disease breaches the walls? What quarantine measures are in place, and is there a cure on the horizon, or is the town seeking help from Jorasco healers or adventurers?"
+				},
+				{
+					"row": 6,
+					"value": "Fantastical Plague (Undead or Planar Corruption)",
+					"description": "Is this plague more than just an illness—are the dead rising as zombies, or are creatures transformed into aberrations by a corruption spreading from a nearby planar rift? Could it be a rage plague, driving townsfolk mad with violence, or perhaps a magical blight affecting both people and the land? How does the town defend against this threat—are they fighting off undead hordes nightly, or has the town been warped by a disease tied to the daelkyr, slowly turning people into something far more sinister?"
+				},
+				{
+					"row": 7,
+					"value": "Economic Threat (Dragonmarked Houses or Trade Wars)",
+					"description": "Is the town’s livelihood at risk from outside economic forces? Perhaps a rival dragonmarked house is trying to undercut the town’s industry, or the Orien lightning rail has bypassed the town, leaving its economy to slowly collapse. Are there trade wars being waged between nearby settlements or houses, and has the town’s economy been destabilized? Who benefits from these outside manipulations, and can the townsfolk resist, or will they have to make deals with shady characters or rival powers to survive?"
+				},
+				{
+					"row": 8,
+					"value": "Invaders (Raiding Armies or Mercenary Forces)",
+					"description": "Is this town on the frontlines of a border conflict between two nations, or has it been drawn into a smaller-scale skirmish between warlords? Perhaps Droaam raiders are harassing Brelish settlements, or the remnants of a Cyran army are launching desperate raids into neighboring lands. How well defended is the town, and are they expecting reinforcements from a dragonmarked house, or are they left to fend for themselves? What motivates the invaders, and could they be reasoned with—or are they seeking conquest?"
+				},
+				{
+					"row": 9,
+					"value": "Inhuman Invaders (Aberrations or Extraplanar Forces)",
+					"description": "Are there creatures pressing in from another plane—perhaps an incursion from Xoriat (the Realm of Madness) or Shavarath (the Battleground)? Is the town being attacked by aberrations—mind flayers, dolgaunts, or even a daelkyr lieutenant—or by extraplanar horrors pressing into Eberron through a weak point in the fabric of reality? How do the townsfolk defend themselves—through magic, technology, or simply by holding out until help arrives? Why have these invaders come, and can they be stopped?"
+				},
+				{
+					"row": 10,
+					"value": "Neighboring Noble (Corrupt or Supernatural)",
+					"description": "Is there a nearby noble or lord exerting control over the town? Perhaps they’re a mundane tyrant squeezing the town for resources, or a figure with dark secrets—like a vampire or rakshasa in disguise, manipulating events to their advantage. How does this noble’s presence shape the town’s politics or economy—are they secretly controlling the trade routes, or do they maintain a public façade while enacting evil behind closed doors? How aware are the townsfolk, and is this a threat the players will have to uncover?"
+				}
+			]
+		},
+		{
+			"table": "fun",
+			"title": "Leisure",
+			"description": "The town’s favorite pastimes reveal its values, whether in magical sports or cultural traditions. Eberron’s recreation reflects the influence of magic, martial prowess, or powerful factions.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Mount Racing (Hippogriffs, Clawfeet, or Magebred Beasts)",
+					"description": "Is this town known for racing exotic mounts, like hippogriffs, Clawfeet, or magebred animals from House Vadalis? Is the sport a popular pastime for the townsfolk, or a serious industry attracting bets from nearby regions? Does House Vadalis sponsor the events, or is it more underground, with illicit gambling and dangerous stakes? How are the races conducted—over land, through the air, or with arcane enhancements? Are there magical obstacles or enchantments on the course to add to the excitement?"
+				},
+				{
+					"row": 2,
+					"value": "Martial Sport (Weapon or Unarmed Combat)",
+					"description": "What kind of martial sport dominates the town—archery competitions, unarmed wrestling, or something more dangerous like spell duels or warforged combat exhibitions? Is it tied to the town’s history in the Last War, with veterans showing off their skills, or is it a tradition passed down through the generations? Do the townsfolk hold these competitions as part of a festival, or are they tied to military training for local militias or mercenaries? What rewards or recognition await the victors?"
+				},
+				{
+					"row": 3,
+					"value": "Ancient Sport or Modern Analog (Talenta Halfling Games)",
+					"description": "Is the sport rooted in a cultural tradition, like the games of the Talenta Plains halflings, or a modernized version of an ancient activity? Are the players wielding ancient weapons, riding dinosaurs, or engaging in ritualistic competitions? Does the town take pride in maintaining this tradition, or is it evolving into something new—perhaps influenced by Brelish or Aundairian modern sports? How do the rules differ from their ancient origins, and how serious are the participants?"
+				},
+				{
+					"row": 4,
+					"value": "Fantasy Sport (Elemental-Enhanced or Dragon-Back)",
+					"description": "Is this a fantastical game involving elemental magic, where players ride on lightning-fueled chariots or throw enchanted projectiles? Perhaps it’s a high-risk sport played on dragonback or using tamed beasts from Droaam. Are there magical elements that make the sport dangerous—such as balls that explode or fields that shift with arcane traps? Is the sport merely a spectacle, or do participants risk their lives for glory and wealth? Are these games tied to powerful houses, like Cannith or Orien, through sponsorship or technology?"
+				},
+				{
+					"row": 5,
+					"value": "Music (Bardic Performances or Magical Concerts)",
+					"description": "Does the town enjoy musical performances from local bards, or is there a more organized musical tradition—perhaps sponsored by House Phiarlan or the Carnival of Shadows? What style of music is popular—classical Aundairian ballads, Talenta Plains drumming, or the experimental arcane-enhanced compositions of Sharn? Do magical instruments or illusions enhance performances, creating sensory experiences far beyond mundane concerts? Are there any famous performers whose name attracts audiences from across Khorvaire?"
+				},
+				{
+					"row": 6,
+					"value": "Games of Chance (Dragonshard Gambling or Arcane Casinos)",
+					"description": "Are games of chance like dice and cards popular pastimes, or are there more magical games involving enchanted objects or dragonshard-powered devices? Does the town have an organized casino—perhaps run by House Tarkanan or the Boromar Clan—or are these games played in secret, in smoky backrooms or shady taverns? Who typically wins, and are the games truly fair? Are there rumors of arcane manipulation or house interference? What are the stakes—gold, favors, or dangerous secrets tied to criminal enterprises?"
+				},
+				{
+					"row": 7,
+					"value": "Board Games (Arcane Strategy or Dragonmarked Games)",
+					"description": "Are there popular strategy games that reflect the region’s history, perhaps games developed by soldiers from the Last War to sharpen their tactics? Do dragonmarked houses sponsor arcane versions of chess or go, where pieces are imbued with magic and can fight or move on their own? How many players typically participate, and is it a test of intellect or a spectacle of magical prowess? Do locals take pride in their skill, or is it a diversion for passing the time? Are there notable champions known for dominating the board?"
+				},
+				{
+					"row": 8,
+					"value": "Combat (Warforged Brawling or Gladiatorial Games)",
+					"description": "Does the town host combat events—whether brutal gladiatorial matches, duels, or warforged brawling circuits? Are weapons involved, or are the fights bare-knuckle? Are these spectacles highly regulated, or is there a sense of lawlessness, with fighters pitted against deadly opponents in secret arenas? Is there magical interference—such as spells cast by spectators or enchanted weapons wielded by participants? Are the fights strictly for entertainment, or do they serve as a way to settle disputes or debts in the town?"
+				},
+				{
+					"row": 9,
+					"value": "Theater (House Phiarlan or Magical Productions)",
+					"description": "Is the town known for its love of theater, with House Phiarlan or the Carnival of Shadows staging elaborate performances? Are shows traditional plays, or are they enhanced with illusions and magical effects that bring stories to life in ways few can imagine? How hard is it to get tickets—do nobles and dragonmarked heirs compete for the best seats, or is the theater more accessible to the common folk? Do the stories hold political or social significance, or are they purely for entertainment?"
+				},
+				{
+					"row": 10,
+					"value": "Broomstick Racing (Elemental Vehicles or Aerial Combat)",
+					"description": "Is broomstick racing the most thrilling sport in town, or do they race more advanced vehicles powered by elemental energy? Do racers soar through rings of fire, dodge arcane obstacles, or battle it out in mid-air? Is this a high-speed competition that attracts spectators from far and wide, or a local tradition with dangerous stakes? Are the vehicles enchanted or built by House Orien or Cannith, and is the sport a serious profession or simply a hobby for daredevils and thrill-seekers?"
+				}
+			]
+		},
+		{
+			"table": "industry",
+			"title": "Main Industry",
+			"description": "The town’s industry, powered by magical innovations and resources, defines its prosperity and ties to powerful factions. Whether mining, crafting, or trade, industry shapes its future and social order.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Mining (Dragonshards or Precious Metals)",
+					"description": "Is the town built around the mining of dragonshards—crystals essential to magical technology and binding? Or perhaps precious metals or gemstones used by House Kundarak for arcane crafting? Who controls the mines—are they operated by a dragonmarked house, an independent guild, or a government body? Is the labor paid, or are indentured workers and criminals forced into dangerous conditions? How has mining shaped the wealth and class structure of the town? What environmental impacts or dangers (magical or otherwise) exist?"
+				},
+				{
+					"row": 2,
+					"value": "Diamond Mine (Resurrection and Magic)",
+					"description": "In a world where diamonds are used for powerful magic like resurrection, who controls this precious resource? Is it tightly regulated by a religious group (such as the Silver Flame or Blood of Vol), the crown, or a dragonmarked house like Kundarak? How secure is the mine—are there threats of theft or sabotage? What role do adventurers play in protecting or transporting these diamonds? Does the town also specialize in creating magical goods or services tied to the diamond trade?"
+				},
+				{
+					"row": 3,
+					"value": "Orchards (Elemental or Alchemical Farming)",
+					"description": "Are the orchards magically enhanced, using elemental magic to produce more abundant or exotic crops? Perhaps the town specializes in arcane agriculture, producing alchemical ingredients or plants with special properties. Has this industry attracted other businesses, like wineries or alchemists? Does House Vadalis or Jorasco have a hand in the agricultural sector? How do the townsfolk interact with this advanced technology—do they embrace it, or do they cling to traditional methods?"
+				},
+				{
+					"row": 4,
+					"value": "Fishing (Storm-Cursed Waters or Sea Monsters)",
+					"description": "How is the fishing industry faring this year—are catches bountiful, or have strange, storm-cursed waters made the harvest dangerous? Is the town near a manifest zone tied to Lamannia or another plane, causing unusual creatures or magical effects to arise? Are fishing boats equipped with magical devices to ward off sea monsters, or do they brave the waters with mundane tools? What magical or mundane conditions are affecting the industry, and how are the people coping with these challenges?"
+				},
+				{
+					"row": 5,
+					"value": "Agriculture (Magebred Livestock or Arcane Farming)",
+					"description": "What kinds of crops or livestock are farmed in the area? Is House Vadalis involved, providing magebred animals or crops enhanced through druidic or arcane magic? How are goods transported—via the lightning rail, House Orien caravans, or elemental airships? How is the town’s agriculture tied to other industries, such as brewing, alchemy, or textile production? Are there rivalries between traditional farmers and those using magical enhancements, and what role do dragonmarked houses play in this economy?"
+				},
+				{
+					"row": 6,
+					"value": "Trade Hub (Lightning Rail or Airship Port)",
+					"description": "Is the town a trade hub due to its location along a major lightning rail line, or does it serve as a port for airships and other magical transportation? How did it rise to prominence—through the support of House Orien, Lyrandar, or another dragonmarked house? What goods pass through the town—mundane supplies, arcane artifacts, or rare magical ingredients? How has the town grown from its trade connections, and what rivalries or alliances exist with other trade centers? Is smuggling or illicit trade a concern?"
+				},
+				{
+					"row": 7,
+					"value": "Artisan Goods (Arcane Crafting or Cannith Forges)",
+					"description": "Does the town specialize in artisan goods like magical weapons, enchanted armor, or arcane devices? Perhaps House Cannith operates a forge here, producing warforged components or elemental binding technology. Do local artisans compete with the dragonmarked houses, or have they formed guilds to protect their interests? How has the artisan culture shaped the town—are there wealthy merchants and craftspeople, or is most of the population made up of laborers supporting the industry?"
+				},
+				{
+					"row": 8,
+					"value": "Tourism (Manifest Zones or Pilgrimages)",
+					"description": "What draws visitors to the town? Is it built near a manifest zone with strange magical phenomena, or perhaps a historical site from the Last War or earlier ages? Do pilgrims come to visit a holy site, such as a Silver Flame cathedral or an ancient shrine? Are there famous festivals, competitions, or magical spectacles that attract outsiders? How does the influx of tourists affect the local economy—are there thriving markets and inns, or does the town struggle to accommodate the constant flow of visitors?"
+				},
+				{
+					"row": 9,
+					"value": "Shipbuilding (Elemental Ships or Airships)",
+					"description": "Does the town specialize in building elemental galleons or airships for House Lyrandar, or perhaps merchant vessels for House Orien? Who are the main clients—independent traders, the Brelish navy, or a powerful dragonmarked house? Are the shipyards operated by House Cannith, using advanced arcane techniques, or are they owned by an independent guild? What challenges does the industry face—competition with other shipyards, sabotage from rival nations, or the dangers of working with unstable elemental magic?"
+				},
+				{
+					"row": 10,
+					"value": "Knowledge (Arcane Research or Magewright Training)",
+					"description": "Is the town home to a renowned university, magical academy, or research center? Perhaps it specializes in arcane studies, dragonshard research, or training magewrights and artificers. Is the town built around the presence of Morgrave University, Arcanix, or an independent institution? What is the focus of the research—ancient relics, planar magic, or new magical technologies? How do scholars and students influence the culture of the town, and is there tension between academics and the rest of the populace?"
+				}
+			]
+		},
+		
+		{
+			"table": "events",
+			"title": "Events",
+			"description": "Festivals and major events often feature magic, political intrigue, and celebrations. They provide opportunities for fun and danger, as well as revealing deeper plots and secrets in the town.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Archery Tournament (Ranger’s or Aundairian Tradition)",
+					"description": "Is this a prestigious event tied to a ranger tradition or a leftover of Aundairian martial culture? Do participants use magical arrows or imbued bows, and are there enchanted targets that create different effects? Is the tournament a legitimate test of skill, or is it a trap set by a noble or warlord to draw out a brigand or rival? Can the players enter, and if so, what prize—magical or otherwise—awaits the victor? Is there underlying tension between participants or factions vying for recognition?"
+				},
+				{
+					"row": 2,
+					"value": "Full Tourney (Dragonmarked or National Event)",
+					"description": "Is this a full tournament with jousting, duels, and melee combat, sponsored by a dragonmarked house or a regional noble? Do House Deneith mercenaries or soldiers from the Five Nations participate, showing off their martial prowess? Are the players able to enter as combatants, or must they fake noble pedigrees to participate? What political or personal motives drive the attendees—are alliances being made, or is someone planning sabotage or assassination under the cover of this prestigious event?"
+				},
+				{
+					"row": 3,
+					"value": "Local Contests (Magewright or Agricultural Competitions)",
+					"description": "What kind of contests are being held? Are there magical challenges, such as a magewright crafting competition or a blink dog race? Or is it more traditional, like agricultural contests (best livestock, most bountiful harvest)? How does the use of magic influence these events—are there enchantments or illusions enhancing the displays? Are these contests a point of local pride, or are tensions high between rival families or factions? How do the players get involved, and what unusual rewards might be on offer?"
+				},
+				{
+					"row": 4,
+					"value": "Performance Festival (Carnival of Shadows or Phiarlan)",
+					"description": "Is this festival centered around music, theater, or even acrobatic performances, possibly staged by House Phiarlan or the Carnival of Shadows? Are there magical enhancements to the shows—illusionary effects, enchanted instruments, or even performances that delve into prophetic visions? Is it a competition where bards and performers from across the land vie for the title of 'Master Performer,' or a more relaxed affair? Could something sinister be hidden within the performances, such as secret messages or spy operations?"
+				},
+				{
+					"row": 5,
+					"value": "Privately-Financed Festivals (Dragonmarked Sponsorship)",
+					"description": "Which wealthy individual or dragonmarked house is financing this festival, and why? Is it a gesture to curry favor with the local populace, or are they trying to overshadow a rival? Do the townspeople appreciate the gesture, or are they suspicious of the motives behind the lavish event? What do the organizers stand to gain—perhaps a political alliance, access to local resources, or support for a future plan? Are there ulterior motives behind the festivities, such as a secret deal or hidden political maneuvering?"
+				},
+				{
+					"row": 6,
+					"value": "Occult Holidays (Siberys or Khyber Rites)",
+					"description": "What occult holiday is being celebrated—does it pay homage to ancient powers like Siberys, or is it tied to darker forces from Khyber or Xoriat? Do the townspeople conduct rituals to ward off evil spirits or honor long-dead ancestors? Are there secretive ceremonies happening behind the scenes, perhaps conducted by a cult of the Dragon Below or the Blood of Vol? How do the players interact with this event—are they invited to participate, or are they investigating something sinister lurking beneath the surface?"
+				},
+				{
+					"row": 7,
+					"value": "Harvest Festival (Arcane or Traditional Celebration)",
+					"description": "What kind of harvest is being celebrated—magical crops grown with the aid of House Vadalis or Jorasco, or a more traditional agricultural bounty? Are there arcane enhancements to the festival games, such as enchanted corn mazes or magical contests? What local traditions are practiced—dances, feasts, or offerings to local spirits or deities? How does the community come together to celebrate, and is there any tension brewing beneath the surface? Could the festival be disrupted by an outside threat, such as a rival town or force?"
+				},
+				{
+					"row": 8,
+					"value": "Religious Holidays (Silver Flame, Sovereign Host, or Blood of Vol)",
+					"description": "What religious significance does the holiday hold—does it honor the Silver Flame’s victory over a great evil, a festival dedicated to Dol Arrah or Boldrei, or a ritual tied to the Blood of Vol’s beliefs about life and death? Is the event a solemn occasion or a grand celebration? How does the town participate—are there processions, sermons, or even trials of faith? Is this holiday unique to the region, or widely celebrated across Khorvaire? How do different factions within the town react to this religious gathering?"
+				},
+				{
+					"row": 9,
+					"value": "Science/Magic Expo (Artifice and Arcane Inventions)",
+					"description": "What kind of technological or magical advancements are being showcased? Are artificers from House Cannith displaying new elemental technologies, or are magewrights demonstrating breakthroughs in arcane crafting? Who attends—scholars from Morgrave University, representatives from dragonmarked houses, or wealthy investors? How are the players involved—are they there to present, protect, or investigate? Could something go wrong, such as an invention malfunctioning or a rival house attempting sabotage?"
+				},
+				{
+					"row": 10,
+					"value": "Solstice Festivals (Planar Influence or Local Tradition)",
+					"description": "Is this a local solstice festival tied to a nearby manifest zone, or is it based on the cycles of Eberron’s moons? Are gifts exchanged, or do locals honor the planes through offerings and rituals? Does the town have any specific traditions—such as bonfires, feasting, or reenactments of historical events? How do planar forces influence the festival—are there unusual occurrences, like glimpses into the Feywild or shadowy figures from Mabar, during the solstice? How does this affect the townspeople, and what dangers lurk?"
+				}
+			]
+		},
+		{
+			"table": "before",
+			"title": "Past",
+			"description": "What existed before the town still shapes it—ruins, ancient civilizations, and remnants of lost powers lie beneath. These past influences hold both secrets and dangers that affect the present.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Dhakaani Ruins (Hobgoblin Empire)",
+					"description": "Was the town built on the remnants of a Dhakaani fortress or outpost from the goblinoid empire that ruled Khorvaire before humanity arrived? Are there still tunnels or hidden vaults beneath the town, filled with forgotten weapons or war machines? Do the locals respect or fear these ruins, and are there whispers of Dhakaani warlords or fiendish powers trying to reclaim them? How does this ancient goblinoid influence affect the town’s relationship with modern Darguun or other goblinoid groups?"
+				},
+				{
+					"row": 2,
+					"value": "Giant Ruins (Xen'drik or Ancient Age)",
+					"description": "Could this site have been an ancient giant city or tower, dating back to the age when the giants ruled the continent and beyond? How much of the giant architecture or magic remains—are there towering stone monoliths or crumbling ruins? Do adventurers or treasure hunters seek to uncover giant relics or magical artifacts in the town? How does the town handle the dangerous enchantments or traps that may still lurk in these ruins, and what secrets of giantkind could still be hidden deep below?"
+				},
+				{
+					"row": 3,
+					"value": "Manifest Zone (Planar Influence)",
+					"description": "Is the town built within a manifest zone, where the veil between Eberron and another plane (like Syrania, Mabar, or Thelanis) is thin? How has this influenced the town—are there strange occurrences, like perpetual twilight, magical flora, or creatures slipping through the cracks of reality? Does the manifest zone empower local industries, like making it easier to summon elementals or create magical items? What risks come with living in such a place, and what hidden powers still linger from its ancient connection to another plane?"
+				},
+				{
+					"row": 4,
+					"value": "Dragonshard Quarry (Magical Resource)",
+					"description": "Was the town once a dragonshard quarry or a mining site controlled by dragonmarked houses? Perhaps the town is still mining these valuable crystals, which fuel magical technology and enchantments. Who owned the mine before the town—was it House Cannith, an ancient empire, or a long-forgotten arcane cabal? Do the dragonshards have strange side effects on those who work near them, and what rumors circulate about the magic they might contain? Are there unmined dragonshards deep beneath the town, waiting to be discovered?"
+				},
+				{
+					"row": 5,
+					"value": "Elven Outpost (Aerenal or Valenar)",
+					"description": "Was the site originally an Aereni elven enclave or a Valenar outpost, perhaps connected to their ancient traditions or necromantic practices? Are there still structures from elven magic, like stone circles, burial sites, or enchanted groves? Does the town have a connection to elven history, and are the spirits of the Aereni or Valenar warriors still present? How do modern elves in the town view this ancient legacy, and are there rivalries over the site’s ownership or importance? Could it hold relics of the Undying Court or ancient elven war magic?"
+				},
+				{
+					"row": 6,
+					"value": "Dragon's Resting Place (Ancient or Slumbering Dragon)",
+					"description": "Was this location once the resting place or lair of a powerful dragon? Does local legend speak of a dragon’s hoard still hidden beneath the city? Is the dragon still alive, slumbering beneath the town, or has it left behind remnants of its power—ancient arcane runes, dragonshard veins, or dragonmarks that manifest in local families? How does the town view the dragon’s influence—are they fearful of awakening its power, or does the dragon’s presence bring prosperity or divine favor? What secrets lie buried within the dragon’s lair?"
+				},
+				{
+					"row": 7,
+					"value": "Last War Battlefield (War-Scarred Land)",
+					"description": "Was this site a battlefield during the Last War, where soldiers clashed or powerful magic was unleashed? Are there still remnants of the war, like abandoned warforged, ruined siege engines, or magical traps left behind by retreating armies? How does the town deal with the scars of war—are there haunted battlefields, cursed weapons, or undead soldiers rising from their graves? How has the war’s aftermath shaped the town’s economy and politics, and are there factions looking to reclaim what was lost on this war-torn land?"
+				},
+				{
+					"row": 8,
+					"value": "Khyber Cult Site (Dragon Below Influence)",
+					"description": "Could this place have once been a site of worship for the dark powers of Khyber, the Dragon Below? Are there caverns or ruins below that still resonate with the foul magic of the daelkyr or aberrations? Are there local cults or secret societies that still operate in the shadows, performing dark rituals in hidden catacombs? What creatures—aberrations, oozes, or worse—still lurk in the depths, waiting to be unleashed? Do the people of the town know the history, or is it carefully hidden away, known only to a few?"
+				},
+				{
+					"row": 9,
+					"value": "Ancient City (Pre-Galifar Civilization)",
+					"description": "Was this site once a powerful city or fortress from an ancient human civilization, predating Galifar? What remnants of that culture still remain—perhaps underground temples, stone carvings, or magical artifacts? Has the town grown over the ruins, with ancient catacombs and forgotten chambers just beneath the surface? What legends persist about the fall of the original city, and could that history hold the key to current events? Are there treasure hunters or scholars drawn to the site in search of long-lost relics or knowledge?"
+				},
+				{
+					"row": 10,
+					"value": "Extraplanar Outpost (Planar Settlement)",
+					"description": "Was this site once an outpost or foothold for beings from another plane—perhaps an incursion from Xoriat (the Realm of Madness), Shavarath (the Battleground), or Dal Quor (the Region of Dreams)? What signs remain of their presence—strange architecture, lingering planar anomalies, or dangerous creatures? Is the town aware of its history, or have the scars of planar influence faded into myth? Could there still be a portal or breach between planes, threatening the town with invasion or magical corruption?"
+				}
+			]
+		},
+		{
+			"table": "eat",
+			"title": "Food",
+			"description": "The food and resources of a town reflect its geography and magic. From magebred animals to crops enhanced by magic, the local cuisine hints at the town’s trade, culture, and magical ties.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Fish (Magebred or River-Caught)",
+					"description": "Is the town located near a river, lake, or the coast, relying on abundant fish for its main diet? Or do they breed fish using House Vadalis magebreeding techniques to increase their size and flavor? Do they fish in manifest zones or strange areas where the fish might have unusual magical properties? How does the fishing industry affect the town’s economy and trade? What kinds of seafood dishes are popular, and how is fishing integrated into the culture—are there festivals or competitions?"
+				},
+				{
+					"row": 2,
+					"value": "Real World Livestock (Magebred or Traditional)",
+					"description": "Does the town raise cows, sheep, or other real-world livestock, or have they turned to House Vadalis’ magebred animals for greater yields? Are these animals larger, more efficient, or magically enhanced in some way? How does the town’s reliance on livestock impact the landscape—are there large pastures, or is livestock raised in confined arcane spaces? What kinds of traditional meals are made from the livestock, and how does the town’s cuisine differ from other regions with similar resources?"
+				},
+				{
+					"row": 3,
+					"value": "Fantasy Livestock (Clawfeet, Blink Dogs, or Hippogriffs)",
+					"description": "Does the town rely on fantastical creatures like Clawfeet, blink dogs, or even hippogriffs for food? Why have they turned to these creatures—perhaps they live in a region where traditional livestock wouldn’t survive, or they have magical properties that make them valuable? How are these animals raised, and are there dangers involved in keeping them? How do the locals prepare the meat—are there unique cultural or magical traditions associated with the consumption of these creatures? Are they rare delicacies or staples?"
+				},
+				{
+					"row": 4,
+					"value": "Fantasy Plants (Arcane or Druidic)",
+					"description": "What makes the town’s crops unique? Are they grown using druidic magic from the Gatekeepers or Ashbound, or are they enchanted plants from a nearby manifest zone? Do they have magical properties, such as glowing in the dark, enhancing health, or providing energy? How did the town come to cultivate these crops—was it through a natural discovery, a druid’s blessing, or a magical experiment? Are these plants considered sacred or valuable, and how do they influence the town’s cuisine and economy?"
+				},
+				{
+					"row": 5,
+					"value": "Cereal Grains (Arcane-Enchanted or Traditional)",
+					"description": "Does the town grow wheat, oats, rice, or a more exotic grain enhanced by magic? How do they protect their crops—do they rely on traditional farming methods or arcane wards to keep pests at bay? What kinds of foods are made with these grains—are there local specialties, or do they produce simple breads and porridges? Are there threats to the crop, such as magical blights, invasive species, or political conflicts over the town’s agricultural production? How does the town export or trade these grains with other regions?"
+				},
+				{
+					"row": 6,
+					"value": "Vegetables (Enhanced by Druidic Magic)",
+					"description": "What vegetables are grown in the town? Are they supported by druidic magic or elemental influence, producing higher yields or unusual properties? Are these vegetables native to the area, or have they been introduced through trade or experimentation? What pests or environmental dangers threaten the crops, and how are they protected? How are the vegetables used in the local cuisine—are there soups, stews, or exotic dishes that blend mundane and magical ingredients? What cultural traditions surround the harvest or cooking?"
+				},
+				{
+					"row": 7,
+					"value": "Fruits (Manifest Zone or Druid-Grown)",
+					"description": "What kinds of fruits grow in or around the town? Are they native to a nearby manifest zone, or have they been cultivated by druids over generations? Do they have magical properties, like increasing vitality or curing minor ailments? How are these fruits used—are they eaten fresh, made into preserves, or fermented into wines or ciders? Where did these fruits originally come from—are they native, or were they imported through lightning rail or airship trade? Are they considered luxury items, or are they a staple of the diet?"
+				},
+				{
+					"row": 8,
+					"value": "Underground Foods (Mushrooms or Cavefish)",
+					"description": "Is the town built in an area where underground foods like mushrooms, cavefish, or other subterranean creatures are the primary diet? How do these foods grow—are they naturally occurring, or have they been cultivated through magical means? Do they have unique properties, such as glowing in the dark or providing resistance to poison? How do the townsfolk prepare these foods, and what dishes are popular? Is the town self-sufficient, or do they rely on trade for other foodstuffs? How do they balance their diet in the dark?"
+				},
+				{
+					"row": 9,
+					"value": "Legumes (Magically Enhanced or Traditional)",
+					"description": "What kinds of legumes are grown in the area—beans, lentils, or more magical varieties? How are they prepared—are they simple staples, or used in complex dishes that blend arcane ingredients? Are these legumes rotated with other crops to maintain soil fertility, or does the town use magical methods to increase the yield? How do they fit into the local cuisine, and what role do they play in trade or commerce? Are there unique ways the legumes are stored or prepared to enhance their flavor or magical properties?"
+				},
+				{
+					"row": 10,
+					"value": "Sentient Creatures (Necromantic or Desperate Measures)",
+					"description": "Why has the town resorted to eating sentient creatures—has there been a famine, or is this part of a darker necromantic ritual tied to the Blood of Vol or the Dragon Below? Do they hide their practices, or is it open knowledge? How do they justify these actions—is it seen as a necessary evil, a form of religious devotion, or a last resort for survival? What are the social and political ramifications—are there factions within the town that support or oppose these practices, and could the players become involved in this conflict?"
+				}
+			]
+		},
+		{
+			"table": "restrictions",
+			"title": "Laws",
+			"description": "Local laws are shaped by magical catastrophes, political power, or ancient superstitions. These restrictions hint at deeper mysteries or conflicts that reveal the town’s character and struggles.",
+			"entries": [
+				{
+					"row": 1,
+					"value": "Music (Bards or Public Performances)",
+					"description": "Why has the town banned music or public performances? Did a bard’s song once trigger a magical catastrophe, or is there an ancient curse tied to certain instruments or songs? Has House Phiarlan’s espionage led to a ban on their performances, or are illusions forbidden due to their connection with forbidden magic? How do bards and performers get around this law—are there underground shows, or do they pass messages through coded lyrics and hidden rhythms? How does this ban affect the town’s culture and entertainment?"
+				},
+				{
+					"row": 2,
+					"value": "Curfews (Magical or Supernatural Dangers)",
+					"description": "Why is nobody allowed out after dark? Are there dangerous creatures that roam the streets at night, such as undead or creatures from a manifest zone tied to Mabar (the Endless Night)? Does the town fear magical conspiracies or subversive groups like the Dreaming Dark? Do people follow the curfew, or are there secret gatherings and meetings in the dark? What do players see if they look outside after curfew—arcane patrols, spectral guardians, or the shadows of hidden enemies? Is the curfew enforced by magical wards or mundane means?"
+				},
+				{
+					"row": 3,
+					"value": "Alcohol or Intoxicants (Prohibition or Magical Substances)",
+					"description": "Why has the town outlawed alcohol or other intoxicants—was there a history of addiction or corruption, or is it tied to a religious belief? Are House Jorasco or House Vadalis involved, controlling the use of magical drugs or potions? Is there an illicit trade in these substances, with secret taverns or apothecaries that serve them in defiance of the law? How do people blow off steam without intoxicants—are there substitute substances, underground parties, or even a black market for enchanted drinks?"
+				},
+				{
+					"row": 4,
+					"value": "Weapons (Warforged or Magical Restrictions)",
+					"description": "How does the town enforce its ban on weapons? Are warforged, soldiers, or adventurers forbidden from carrying arms, perhaps in response to a history of violence or an uprising? Are magical weapons specifically banned, and how are they detected—through House Medani’s inquisitives, or with arcane wards? Do people carry concealed weapons, like hidden blades or enchanted items? How does this law affect the town’s relationship with mercenaries, adventurers, or visiting dignitaries? Is the ban respected, or are there secret duels?"
+				},
+				{
+					"row": 5,
+					"value": "Magic (Necromancy, Illusions, or Summoning)",
+					"description": "Why has magic been restricted in the town? Did a magical catastrophe or an incursion from Xoriat (the Realm of Madness) lead to a ban on necromancy or summoning? Are certain schools of magic, like illusions or enchantments, seen as dangerous due to political manipulation or arcane crimes? How do people react to magic users—are they feared, revered, or hunted by inquisitors? Are there secret cabals of magic users who operate underground, or has House Cannith’s influence made certain types of arcane crafting illegal?"
+				},
+				{
+					"row": 6,
+					"value": "Racial Bans (Warforged or Goblinoids)",
+					"description": "Why has the town banned a specific race—such as goblinoids, warforged, or changelings? Is it due to a local superstition or religious decree, or are there political reasons tied to the Last War? Is the ban enforced by a particular group, like mercenaries from House Deneith or the local watch? How do members of that race get by in the town—are there sympathizers who shelter them, or is the town strict and hostile? What would happen if the players were to challenge this law, and how do locals justify their attitudes toward the ban?"
+				},
+				{
+					"row": 7,
+					"value": "Literature (Books or Forbidden Knowledge)",
+					"description": "Why has the town banned certain books or literature—are they trying to suppress dangerous magical knowledge, revolutionary ideas, or historical truths that could threaten the ruling power? Is the law enforced by House Sivis or inquisitors who monitor communication? How do the townsfolk share information—are there underground printing presses or secret libraries? What is the government or ruling house trying to hide, and how do scholars or scribes navigate this restriction? Are there hidden codes in everyday communication?"
+				},
+				{
+					"row": 8,
+					"value": "Technology (Artifice or Warforged Prohibition)",
+					"description": "Why has the town turned against certain forms of technology—perhaps after an elemental binding experiment went horribly wrong, or due to a historical tragedy caused by House Cannith’s warforged? Are artificers regulated, and are their inventions seen as dangerous nuisances? How do inventors or artificers in town cope with these restrictions—do they operate in secret, or do they lobby for change? Are there old war machines or arcane devices left over from the Last War that the townspeople fear or refuse to repair or use?"
+				},
+				{
+					"row": 9,
+					"value": "Satire (Censorship or Political Suppression)",
+					"description": "Why has the town outlawed satire or mockery—has a thin-skinned ruler outlawed any jokes about the government, or is it an attempt to suppress rebellion and revolutionary ideas? How do the people respond—are there underground satirical plays or covert pamphlets that ridicule the ruling class? Are adventurers in danger of being arrested for making off-hand jokes about the town’s leadership, or do the players find themselves the target of secret satire and rumors? What role does humor play in subverting the town’s power structure?"
+				},
+				{
+					"row": 10,
+					"value": "Religion (Specific or Broad Bans)",
+					"description": "Has the town banned a particular religion, such as the Blood of Vol, the Silver Flame, or even the Sovereign Host? Is it due to a magical or historical event, or has the town been corrupted by a rival faith or cult? Are all forms of worship prohibited, or is the ban targeted against one specific sect? How is the law enforced—by religious zealots, town guards, or even inquisitors from another faith? How do people practice their beliefs in secret, and what role do the players play in navigating these spiritual conflicts?"
+				}
+			]
+		}
+	]
+}

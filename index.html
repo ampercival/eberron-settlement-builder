@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eberron Tables Randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Eberron Random Table Selector</h1>
+        <button id="randomizeButton">Randomize</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Load JSON data from an external file
+        fetch('data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                // Randomize button functionality
+                document.getElementById("randomizeButton").addEventListener("click", function() {
+                    let resultDiv = document.getElementById("result");
+                    resultDiv.innerHTML = ""; // Clear previous result
+
+                    jsonData.tables.forEach(table => {
+                        // Randomly select one entry from the table
+                        const randomIndex = Math.floor(Math.random() * table.entries.length);
+                        const selectedEntry = table.entries[randomIndex];
+
+                        // Create HTML to display the selected entry
+                        let section = document.createElement("div");
+                        section.classList.add("result-section");
+
+                        let title = document.createElement("h2");
+                        title.textContent = table.title;
+                        section.appendChild(title);
+
+                        let description = document.createElement("p");
+                        description.textContent = table.description;
+                        section.appendChild(description);
+
+                        let value = document.createElement("p");
+                        value.innerHTML = `<strong>${selectedEntry.value}</strong>: ${selectedEntry.description}`;
+                        section.appendChild(value);
+
+                        resultDiv.appendChild(section);
+                    });
+                });
+            })
+            .catch(error => console.error('Error loading JSON data:', error));
+    </script>
+</body>
+</html>
