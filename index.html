@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eberron Tables Randomizer</title>
+    <title>Random Eberron Settlement Generator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Eberron Random Table Selector</h1>
+        <h1>Random Eberron Settlement Generator</h1>
         <button id="randomizeButton">Randomize</button>
         <div id="result"></div>
     </div>
@@ -41,7 +41,7 @@
                         section.appendChild(description);
 
                         let value = document.createElement("p");
-                        value.innerHTML = `<strong>${selectedEntry.value}</strong>: ${selectedEntry.description}`;
+                        value.innerHTML = `<strong>Selected:</strong> ${selectedEntry.value}<br>${selectedEntry.description}`;
                         section.appendChild(value);
 
                         resultDiv.appendChild(section);
