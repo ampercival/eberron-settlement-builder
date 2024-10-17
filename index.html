@@ -9,7 +9,7 @@
 <body>
     <h1>Random Eberron Settlement Generator</h1>
     <label for="settlementSize">Select Settlement Size:</label>
-    <select id="settlementSize">
+    <select id="settlementSize" style="width: auto;">
         <option value="thorp">20–80 - Thorp</option>
         <option value="hamlet">81–400 - Hamlet</option>
         <option value="village">401–900 - Village</option>
@@ -21,7 +21,7 @@
     </select>
     <div class="spacer" style="height: 20px;"></div>
     <label for="location">Select Location:</label>
-    <select id="location">
+    <select id="location" style="width: auto;">
         <option value="aundair">Aundair</option>
         <option value="breland">Breland</option>
         <option value="droaam">Droaam</option>
@@ -176,7 +176,9 @@
                         updateRightColumn(table, index, randomValue);
 
                         if (selectedEntry && randomValue !== "Random") {
-                            settlementDetails.push(`## ${table.title}: ${selectedEntry.value}\n${selectedEntry.description}\n`);
+                            settlementDetails.push(`## ${table.title}: ${selectedEntry.value}
+${selectedEntry.description}
+`);
                         }
                     });
                 });
@@ -193,6 +195,11 @@
                     document.getElementById("tab1Content").style.display = "none";
                     document.getElementById("tab2Content").style.display = "block";
 
+                    const settlementSizeElement = document.getElementById("settlementSize");
+                    const settlementSize = settlementSizeElement.options[settlementSizeElement.selectedIndex].text;
+                    const locationElement = document.getElementById("location");
+                    const location = locationElement.options[locationElement.selectedIndex].text;
+
                     // Load guidance text from external file
                     fetch('prompt.txt')
                         .then(response => {
@@ -205,6 +212,9 @@
                             document.getElementById("copyText").value = `${text}
 
 # Information to use to create the settlement outline
+
+## Settlement Size: ${settlementSize}
+## Location: ${location}
 
 ${settlementDetails.join('\n')}`;
                         })
