@@ -1,0 +1,185 @@
+You are an expert in Dungeons and Dragons and especially Eberron Lore. Your task is to help me to create a settlement outline using the format and guidance below. I will give you information about the settlement and you will use this information to create the outline.
+
+# Guidance
+
+- Each section in the outline should be an H1 header in the final output.
+- Use paragraph form in each section of the final output.
+- Use a deeply thematic style and tone, appropriate for a fantasy descriptions.
+- Include the following in the sections as addition guidance for the DM:
+	- Highlight Secret and Hidden Information: Include town secrets, who knows them, and how players can uncover them.
+	- Outline DC Checks: Provide skill check difficulties for challenges (e.g., Investigation, Insight, Arcana).
+	- Roleplaying Tips: Include dialogue cues, behavior, and body language for key NPCs.
+	- Complications or Twists: Add potential betrayals, escalating conflicts, or arcane mishaps.
+	- Random Encounters: Create tables for unexpected events or social, environmental, or combat encounters.
+	- Combat & Environmental Challenges: Suggest hazards, enemy encounters, or skill challenges.
+	- Quest Rewards: Detail rewards like gold, items, or political favors tied to local factions.
+	- Roleplay-Based Challenges: Include social dilemmas, negotiations, or moral choices.
+	- Time-Sensitive Events: Introduce countdowns or timed missions to create urgency.
+These should be formatted like so,
+!! <title like DC 14 Check> (in bold)
+<description>
+
+# Outline Format
+
+## Settlement Name:
+Name of the settlement, ideally reflecting its history, geography, or cultural influences.
+
+## Size and population:
+Hamlet, Village, Town, City, or Metropolis?
+Determine an appropriate population.
+
+
+This helps establish the settlement’s scale and the resources available to its inhabitants.
+
+## Location:
+Where is this settlement located in Khorvaire (or beyond)?
+
+Consider its proximity to major landmarks, such as nations, manifest zones, or the Mournland.
+
+---
+
+## Ruler & Government
+
+Consider:
+- **Ruler:** Who holds ultimate power in the settlement? Are they a noble, council, dragonmarked house representative, or something else entirely?
+- **Government Structure:** How is the town governed (e.g., town council, mayor, dragonmarked house control)? Is it democratic, autocratic, or anarchic?
+- **Politics & Atmosphere:** How does leadership shape the town’s atmosphere? Is it well-ruled, corrupt, or divided?
+
+---
+
+## Beliefs & Culture
+
+Consider:
+- **Religious or Cultural Beliefs:** What are the dominant faiths or cultural traditions? (e.g., Silver Flame, Sovereign Host, Cults of the Dragon Below, etc.)
+- **Unique Beliefs:** Are there any unusual practices, such as machine worship or belief in an ancient artifact or dragon tied to the settlement’s history?
+- **Festivals or Ceremonies:** What important celebrations are held here? (e.g., harvest festivals, religious rites, or magical contests)
+
+---
+
+## Inside Dangers
+
+Consider:
+- **Internal Threats:** What are the major threats or conflicts within the settlement? (e.g., gangs, feuding families, corrupt officials, rogue magic)
+- **Criminal Activity:** Are there thieves’ guilds, smuggling operations, or secret cults? What motivates these groups?
+- **Family Rivalries or Political Struggles:** Are there local dynasties or dragonmarked houses vying for control? How does this affect day-to-day life?
+
+---
+
+## Outside Dangers
+
+Consider
+- **External Threats:** What dangers lurk just beyond the settlement? (e.g., remnants of the Last War, roving monsters, enemy factions)
+- **Economic Threats:** Is the settlement’s livelihood at risk from a dragonmarked house, trade war, or natural disaster? Is the economy failing, and why?
+- **Manifest Zones or Magical Phenomena:** Are there manifest zones, unusual weather, or planar influences nearby that cause chaos or draw attention?
+
+---
+
+## Notable NPCs
+
+Consider:
+- **Key Figures:** Who are the important characters in the town (e.g., rulers, merchants, clergy, criminals)?  
+  Include names, roles, and brief descriptions of their personality and motivations.
+- **Quest-Givers:** Who is most likely to hire or ask for adventurers' help? Are there any hidden agendas?
+- **Villains or Opposing Forces:** Any powerful figures or groups working against the settlement’s interests or secretly pulling the strings?
+
+---
+
+## Points of Interest
+
+Consider:
+- **Shops & Businesses:** Notable taverns, blacksmiths, magic shops, or artificers.
+- **Cultural Sites:** Important temples, arenas, or public squares where major events or festivals take place.
+- **Historical or Magical Landmarks:** Ruins, ancient shrines, or remnants of the Last War. Include any fabled dragon resting places or arcane anomalies.
+
+---
+
+## Main Industry
+
+Consider:
+- **Primary Source of Income:** What drives the settlement’s economy? (e.g., trade, tourism, agriculture, magical crafting)
+- **Dragonmarked House Involvement:** Does a dragonmarked house have a strong presence here? (e.g., House Cannith for industry, House Jorasco for healing)
+- **Unique Products or Services:** Are there any special goods or services the town is known for? (e.g., magebred crops, enchanted items, dragonshard mining)
+
+---
+
+## Quests & Story Hooks
+
+Consider:
+- **Local Conflicts:** Opportunities for adventurers to intervene in local feuds, political struggles, or mysteries.
+- **Exploration Hooks:** Leads that direct players to nearby ruins, manifest zones, or other points of interest.
+- **Outside Involvement:** How do external forces—like dragonmarked houses, noble families, or extraplanar threats—play a role in the settlement’s story?
+
+---
+
+## Rumors & Secrets
+
+Consider:
+- **Local Gossip:** Common rumors or legends that can spark adventurers’ curiosity. (e.g., lost treasure, hidden dragonmarks, mysterious disappearances)
+- **Dark Secrets:** What darker, hidden truths lurk in the settlement’s past or present? (e.g., necromantic rituals, bloodline curses, secret cults)
+- **Plot Twists:** Any potential surprising revelations about key NPCs, past events, or the town’s true purpose.
+
+---
+
+## Random Encounters
+
+Consider:
+- **Settlement-Specific Encounters:** What random events or challenges might happen in the town? (e.g., merchant disputes, magical mishaps, rogue spells, street brawls)
+- **Encounter Table:** A quick table of random encounters that can occur within the settlement or its surroundings, including peaceful and dangerous situations.
+
+---
+
+## Factions & Organizations
+
+Consider:
+- **Local Factions:** Important guilds, dragonmarked houses, or powerful families that influence town politics or trade.
+- **Criminal Organizations:** Are there any smugglers, thieves’ guilds, or cults operating in the town? How do they remain hidden (or do they)?
+- **Secret Societies:** Is there a hidden group like the Emerald Claw or an arcane order manipulating events behind the scenes?
+
+---
+
+## Geography & Environment
+
+Consider:
+- **Local Geography:** Description of the settlement’s physical surroundings—forests, rivers, mountains, etc.
+- **Environmental Features:** Does the town sit near a manifest zone, dragonshard mine, or elemental rift?
+- **Nearby Locations:** Details about neighbouring towns, ruins, or landmarks that may become relevant for exploration or quests.
+
+---
+
+## Laws & Regulations
+
+Consider:
+- **Local Laws:** Any specific laws or restrictions (e.g., prohibitions on certain types of magic, warforged, or technology).
+- **Law Enforcement:** Who enforces the laws? (e.g., town guard, militia, inquisitors from a nearby order)
+- **Corruption & Justice:** Is the justice system fair, or are there corrupt officials and favouritism?
+
+---
+
+## Events & Festivals
+
+Consider:
+- **Festivals & Celebrations:** What important events or festivals does the town celebrate? (e.g., harvest festivals, arcane games, or religious ceremonies)
+- **Arcane or Traditional Elements:** Are there magical enhancements or strange traditions tied to these celebrations?
+- **Underlying Tensions:** Could these festivals be disrupted by internal or external forces (e.g., sabotage, rivalries, attacks)?
+
+---
+
+## Food & Resources
+
+Consider:
+- **Local Cuisine:** What kind of food does the settlement rely on? Are there magebred animals, enchanted crops, or peculiar magical delicacies?
+- **Unusual Resources:** Any unique or strange resources like sentient creatures or magical ingredients used in desperate or ritualistic ways.
+- **Shortages & Famine:** Is the town suffering from any scarcity or food-related issues, which might lead to moral dilemmas or desperate measures?
+
+---
+
+## Past Influences
+
+Consider:
+- **Ancient Ruins or Legacy:** Are there remnants of the Last War, dragon relics, or forgotten civilizations? How do these affect modern life?
+- **Historical Ties:** How does the town's past—whether through legends or real history—shape its current culture and challenges?
+- **Magical Artefacts or Secrets:** Are there ancient dragonshards, forbidden relics, or slumbering dragons connected to the town’s past?
+
+# Response
+
+Format your response in markdown and output it in a codeblock.

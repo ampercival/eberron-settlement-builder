@@ -7,45 +7,208 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Random Eberron Settlement Generator</h1>
+    <label for="settlementSize">Select Settlement Size:</label>
+    <select id="settlementSize">
+        <option value="thorp">20–80 - Thorp</option>
+        <option value="hamlet">81–400 - Hamlet</option>
+        <option value="village">401–900 - Village</option>
+        <option value="small-town">901–2,000 - Small town</option>
+        <option value="large-town">2,001–5,000 - Large town</option>
+        <option value="small-city">5,001–12,000 - Small city</option>
+        <option value="large-city">12,001–25,000 - Large city</option>
+        <option value="metropolis">25,001+ - Metropolis</option>
+    </select>
+    <div class="spacer" style="height: 20px;"></div>
+    <label for="location">Select Location:</label>
+    <select id="location">
+        <option value="aundair">Aundair</option>
+        <option value="breland">Breland</option>
+        <option value="droaam">Droaam</option>
+        <option value="eldeen-reaches">Eldeen Reaches</option>
+        <option value="karrnath">Karrnath</option>
+        <option value="lhazaar-principalities">Lhazaar Principalities</option>
+        <option value="mror-holds">Mror Holds</option>
+        <option value="qbarra">Q’barra</option>
+        <option value="shadow-marches">Shadow Marches</option>
+        <option value="talenta-plains">Talenta Plains</option>
+        <option value="thrane">Thrane</option>
+        <option value="valenar">Valenar</option>
+        <option value="zilargo">Zilargo</option>
+    </select>
+    <div class="spacer" style="height: 20px;"></div>
     <div class="container">
-        <h1>Random Eberron Settlement Generator</h1>
         <button id="randomizeButton">Randomize</button>
-        <div id="result"></div>
+        <div class="tabs">
+            <button class="tab-button" id="tab1Button">Tab 1</button>
+            <button class="tab-button" id="tab2Button">Tab 2</button>
+        </div>
+        <div id="tab1Content" class="tab-content">
+            <div id="result"></div>
+        </div>
+        <div id="tab2Content" class="tab-content" style="display: none;">
+            <textarea id="copyText" rows="20" cols="80" readonly></textarea>
+        </div>
     </div>
 
     <script>
+        let settlementDetails = [];
+        
         // Load JSON data from an external file
         fetch('data.json')
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(jsonData => {
-                // Randomize button functionality
-                document.getElementById("randomizeButton").addEventListener("click", function() {
-                    let resultDiv = document.getElementById("result");
-                    resultDiv.innerHTML = ""; // Clear previous result
+                const resultDiv = document.getElementById("result");
 
-                    jsonData.tables.forEach(table => {
-                        // Randomly select one entry from the table
-                        const randomIndex = Math.floor(Math.random() * table.entries.length);
-                        const selectedEntry = table.entries[randomIndex];
-
-                        // Create HTML to display the selected entry
-                        let section = document.createElement("div");
-                        section.classList.add("result-section");
-
-                        let title = document.createElement("h2");
-                        title.textContent = table.title;
-                        section.appendChild(title);
-
-                        let description = document.createElement("p");
-                        description.textContent = table.description;
-                        section.appendChild(description);
-
-                        let value = document.createElement("p");
-                        value.innerHTML = `<strong>Selected:</strong> ${selectedEntry.value}<br>${selectedEntry.description}`;
-                        section.appendChild(value);
-
-                        resultDiv.appendChild(section);
+                // Function to initialize content on page load
+                function initializeContent() {
+                    jsonData.tables.forEach((table, index) => {
+                        createRow(table, index, "Random");
                     });
+                }
+
+                // Function to create row for each table
+                function createRow(table, index, selectedValue) {
+                    // Create a container for each table's result
+                    let rowContainer = document.createElement("div");
+                    rowContainer.classList.add("row-container");
+                    rowContainer.setAttribute("id", `row-container-${index}`);
+
+                    // Create the columns
+                    let leftColumn = document.createElement("div");
+                    let rightColumn = document.createElement("div");
+                    leftColumn.classList.add("column");
+                    rightColumn.classList.add("column");
+                    rightColumn.setAttribute("id", `right-column-${index}`);
+
+                    // Populate left column with title, description, and dropdown
+                    let title = document.createElement("h2");
+                    title.textContent = table.title;
+                    leftColumn.appendChild(title);
+
+                    let description = document.createElement("p");
+                    description.textContent = table.description;
+                    leftColumn.appendChild(description);
+
+                    // Create dropdown for selecting value
+                    let dropdownContainer = document.createElement("div");
+                    dropdownContainer.classList.add("dropdown-container");
+
+                    let dropdown = document.createElement("select");
+                    dropdown.setAttribute("id", `dropdown-${index}`);
+
+                    let randomOption = document.createElement("option");
+                    randomOption.value = "Random";
+                    randomOption.textContent = "Random";
+                    dropdown.appendChild(randomOption);
+
+                    table.entries.forEach(entry => {
+                        let option = document.createElement("option");
+                        option.value = entry.value;
+                        option.textContent = entry.value;
+                        dropdown.appendChild(option);
+                    });
+
+                    dropdown.value = selectedValue;
+                    dropdownContainer.appendChild(dropdown);
+                    leftColumn.appendChild(dropdownContainer);
+
+                    // Add event listener to update content when dropdown value changes
+                    dropdown.addEventListener("change", () => {
+                        updateRightColumn(table, index, dropdown.value);
+                    });
+
+                    // Populate right column based on dropdown selection
+                    rowContainer.appendChild(leftColumn);
+                    rowContainer.appendChild(rightColumn);
+                    resultDiv.appendChild(rowContainer);
+                    updateRightColumn(table, index, selectedValue);
+                }
+
+                // Function to update the right column based on dropdown selection
+                function updateRightColumn(table, index, selectedValue) {
+                    const rightColumn = document.getElementById(`right-column-${index}`);
+                    if (!rightColumn) return; // Ensure rightColumn exists before attempting to modify it
+
+                    rightColumn.innerHTML = ""; // Clear previous content
+
+                    if (selectedValue !== "Random") {
+                        const selectedEntry = table.entries.find(entry => entry.value === selectedValue);
+                        if (selectedEntry) {
+                            let value = document.createElement("p");
+                            value.innerHTML = `<strong>${selectedEntry.value}</strong>`;
+                            rightColumn.appendChild(value);
+
+                            let askYourself = document.createElement("p");
+                            askYourself.innerHTML = "<em>Ask yourself...</em>";
+                            rightColumn.appendChild(askYourself);
+
+                            let entryDescription = document.createElement("p");
+                            entryDescription.textContent = selectedEntry.description;
+                            rightColumn.appendChild(entryDescription);
+                        }
+                    }
+                }
+
+                // Randomize button functionality
+                document.getElementById("randomizeButton").addEventListener("click", () => {
+                    settlementDetails = []; // Clear previous settlement details
+
+                    jsonData.tables.forEach((table, index) => {
+                        const dropdownElement = document.getElementById(`dropdown-${index}`);
+                        let selectedEntry;
+                        let randomValue = "Random";
+
+                        if (dropdownElement && dropdownElement.value === "Random" && table.entries && table.entries.length > 0) {
+                            const randomIndex = Math.floor(Math.random() * table.entries.length);
+                            selectedEntry = table.entries[randomIndex];
+                            randomValue = selectedEntry.value;
+                        } else if (dropdownElement) {
+                            randomValue = dropdownElement.value;
+                            selectedEntry = table.entries.find(entry => entry.value === randomValue);
+                        }
+
+                        updateRightColumn(table, index, randomValue);
+
+                        if (selectedEntry && randomValue !== "Random") {
+                            settlementDetails.push(`## ${table.title}: ${selectedEntry.value}\n${selectedEntry.description}\n`);
+                        }
+                    });
+                });
+
+                // Initialize the content on page load
+                initializeContent();
+
+                // Tab functionality
+                document.getElementById("tab1Button").addEventListener("click", () => {
+                    document.getElementById("tab1Content").style.display = "block";
+                    document.getElementById("tab2Content").style.display = "none";
+                });
+                document.getElementById("tab2Button").addEventListener("click", () => {
+                    document.getElementById("tab1Content").style.display = "none";
+                    document.getElementById("tab2Content").style.display = "block";
+
+                    // Load guidance text from external file
+                    fetch('prompt.txt')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.text();
+                        })
+                        .then(text => {
+                            document.getElementById("copyText").value = `${text}
+
+# Information to use to create the settlement outline
+
+${settlementDetails.join('\n')}`;
+                        })
+                        .catch(error => console.error('Error loading guidance text:', error));
                 });
             })
             .catch(error => console.error('Error loading JSON data:', error));

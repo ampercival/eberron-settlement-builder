@@ -2,16 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 .container {
-    padding: 20px;
-    max-width: 600px;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -23,15 +21,53 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 #randomizeButton:hover {
     background-color: #0056b3;
 }
 
-.result-section {
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 20px;
-    padding: 10px;
     border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.column {
+    width: 48%;
     text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.spacer {
+    height: 200px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.dropdown-container {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+select {
+    width: 100%;
 }
